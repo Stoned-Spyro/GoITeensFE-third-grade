@@ -85,19 +85,33 @@
 
 // console.log(x.toFixed(2));
 
-const x = 2.5;
-const y = 2.1;
-const z = 2;
+// const x = 2.5;
+// const y = 2.1;
+// const z = 2;
 
-console.log(Number(x.toFixed(0)));
-console.log(Number(y.toFixed(2)));
-console.log(Number(z.toFixed(2)));
+// console.log(Number(x.toFixed(0)));
+// console.log(Number(y.toFixed(2)));
+// console.log(Number(z.toFixed(2)));
 
-const cat1 = 3;
-const cat2 = 4;
+// const cat1 = 3;
+// const cat2 = 4;
 
-const sumOfCatExp = Math.pow(cat1,2) + Math.pow(cat2,2);
+// const sumOfCatExp = Math.pow(cat1, 2) + Math.pow(cat2, 2);
 
-const gip = Math.sqrt(sumOfCatExp);
+// const gip = Math.sqrt(sumOfCatExp);
 
-console.log(gip);
+// console.log(gip);
+
+// let price = 0;
+// console.log(price);
+// console.log(price);
+// price = price + 20;
+// console.log(price);
+// price = price + 10;
+// console.log(price);
+// price += 10;
+// console.log(price);
+// price++;
+// console.log(price);
+// price++;
+// console.log(price);
