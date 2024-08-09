@@ -60,7 +60,7 @@ function hoistFunction() {
   console.log("Я була викликана");
 }
 
-//testFunc();
+testFunc();
 
 const testFunc = function () {
   console.log("Я також була викликаною");
@@ -85,3 +85,11 @@ const log = function (...args) {
 log(15, true, "Олексій", "Микола");
 const array = [15, true, "Олексій", "Микола"];
 log(...array);
+
+function some(m, x = 5, y = 10, z = 15) {
+  y = undefined;
+  console.log(" m", m, "x", x, "y", y, "z", z);
+  return x + y + z + m;
+}
+
+console.log(some(3, 7, undefined, 5));
