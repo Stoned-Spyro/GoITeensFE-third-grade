@@ -1,0 +1,8 @@
+{
+  "age": 15,
+  "name": "Oleksiy",
+  "address": {
+    "city": "Lviv",
+    "street": "Velychkovskogo"
+  }
+}
