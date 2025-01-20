@@ -1,0 +1,21 @@
+.threshold {
+  height: 2000px;
+}
+
+.observeredDiv {
+  background-color: aqua;
+  height: 300px;
+  margin-bottom: 60px;
+}
+
+#flowers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#flowers img {
+  width: 300px;
+  height: auto;
+  margin-bottom: 40px;
+}
